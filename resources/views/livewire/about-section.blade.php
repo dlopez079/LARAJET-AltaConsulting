@@ -23,22 +23,14 @@
     <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
       <div class="lg:col-start-2 lg:pl-8">
         <div class="text-base max-w-prose mx-auto lg:max-w-lg lg:ml-auto lg:mr-0">
-          <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Work with us</h2>
-          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Our Process</h3>
-          <p class="mt-8 text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-          <div class="mt-5 prose prose-indigo text-gray-500">
-            <p>Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.</p>
-            <p>Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.</p>
-            <p>Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.</p>
-            <ul role="list">
-              <li>Quis elit egestas venenatis mattis dignissim.</li>
-              <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-              <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-            </ul>
-            <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-            <h3>How we’re different</h3>
-            <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
-            <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
+          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">About</h3>
+          <div class="mt-5 prose prose-indigo text-gray-500 text-justify">
+            <p>Alta Consulting is a boutique public affairs firm helping customers achieve their public relations and communications goals. Founded by Yuridia Peña, a senior communications professional, the firm’s priority is to work as a trusted partner with clients and complement any internal public affairs team with effective and straightforward strategies.</p>
+            <p>Yuridia has held communications roles in government, labor organizations, corporations and nonprofit entities. Most recently, she served as vice president of communications for SOMOS Community Care, a healthcare company serving nearly 1 million Medicaid participants in New York. She successfully launched the organization’s patient-centered and multilingual mobile application, organized a series of events for thousands of families across New York City and oversaw outreach efforts as well as multilingual and culturally competent marketing campaigns.</p>
+            <p>Yuridia spearheaded a local participatory budgeting campaign and promoted legislation to end stop-and-frisk when she worked at the New York Council as communications director for then Councilman Mark S. Weprin. As deputy press secretary for the New York City Department of Education, Yuridia served as spokesperson for the city’s court-involved youth, English language learners, unaccompanied minors and adult education students. She media trained senior DOE officials including former chancellor Carmen Fariña, deputy chancellors and district superintendents for speaking events and interviews with journalists including Spanish language national and international press.</p>
+            <p>As a consultant for the public relations firm Marathon Strategies, Yuridia developed and executed a series of local and national media relations and social media marketing campaigns for C-Suite clients in luxury real estate, fast-casual restaurants and for-hire vehicle industries. </p>
+            <p>Yuridia began her career in the labor movement as Assistant Editor for the Council of School Supervisors and Administrators of NYC. In her next position at 32BJ SEIU as a communications specialist, she managed communications work during contract negotiations for residential workers in the Hudson Valley and for New York City school cleaners. Yuridia also coordinated demonstrations in Connecticut during the Fight for $15 campaign and trained media-facing workers and their families for various interviews.</p>
+            <p>Yuridia serves as a board member of START Treatment and Recovery Centers. She holds a master of arts degree in corporate communication from City University of New York - Baruch College and a bachelor of arts degree in journalism from State University of New York - Purchase College. </p>
           </div>
         </div>
       </div>
