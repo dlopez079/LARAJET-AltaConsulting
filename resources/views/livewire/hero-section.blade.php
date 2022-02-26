@@ -1,19 +1,3 @@
-<!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
 <section id="hero" class="relative overflow-hidden">
     <header x-data="{ open: false }" class="relative">
       <div class="bg-gray-900 pt-6">
@@ -118,7 +102,7 @@
             </div>
 
             {{-- SECOND MAIN COLUMN / MAIN PICTURE COLUMN --}}
-            <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+            <div class="py-5 lg:m-0 lg:relative">
               <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                 {{-- YURI'S MAIN PICTURE --}}
                 <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none border border-indigo-500 border-rounded-md shadow shadow-white" src="{{ asset('/img/yuri.jpg') }}" alt="Yuridia Pena">
