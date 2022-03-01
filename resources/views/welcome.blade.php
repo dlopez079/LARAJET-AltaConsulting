@@ -31,6 +31,7 @@
                 @livewire('about-section')
                 @livewire('contact-section')
                 @livewire('blog-section')
+                @livewire('a-p-i.times')
 
         @livewireStyles
     </body>
