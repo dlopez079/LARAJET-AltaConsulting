@@ -28,9 +28,27 @@
               <a href="#" class="text-base font-medium text-white hover:text-gray-300">Blog</a>
             </div>
           </div>
+
+          {{-- LOG IN / REGISTER MODEL --}}
           <div class="hidden md:flex md:items-center md:space-x-6">
-            <a href="#" class="text-base font-medium text-white hover:text-gray-300"> Log in </a>
-            <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> Start free trial </a>
+            @if (Route::has('login'))
+              <div>
+                @auth
+                  {{-- Dashboard Button --}}
+                  <a href="{{ url('/dashboard') }}" class="text-base font-medium text-white hover:text-gray-300 px-5"> Dashboard </a>
+                    
+                @else
+                  {{-- Log In. --}}
+                  <a href="{{ route('login') }}" class="text-base font-medium text-white hover:text-gray-300 px-5"> Log in </a>
+
+                  @if (Route::has('register'))
+                    {{-- Register --}}
+                    <a href="{{ route('register') }}" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"> Register</a>
+                  @endif
+                @endauth
+ 
+              </div>      
+            @endif
           </div>
         </nav>
       </div>
@@ -69,11 +87,13 @@
   
               <a href="#blog" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">Blog</a>
             </div>
+
+            {{-- Authenication Nav Buttons --}}
             <div class="mt-6 px-5">
               <a href="#" class="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700">Start free trial</a>
             </div>
             <div class="mt-6 px-5">
-              <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
+              <p class="text-center text-base font-medium text-gray-500">Dashboard<a href="{{ route('login') }}" class="text-gray-900 hover:underline">Login</a></p>
             </div>
           </div>
         </div>
