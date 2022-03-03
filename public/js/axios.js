@@ -36,9 +36,22 @@ async function getSections() {
 
 async function getNewswireAPI() {
     try {
-      const response = await axios.get(`${url}/content/${source}/${section}.json?api-key=${apiKey}`);
-      const articlesArr = (response.data.results);
+      let response = await axios.get(`${url}/content/${source}/${section}.json?api-key=${apiKey}`);
+      let articlesArr = (response.data.results);
+
+      /**
+       * I confirmed that the data is showing in the console.  
+       * I will turn this off when read for production. 
+       */
       console.log(articlesArr);
+
+      // Because this is an object that contains an array, we must loop through the informaiton and display it on the dom.
+      for (let i = 0; i < articlesArr.length; i++) { 
+          console.log(articlesArr[i])
+      }
+        
+
+    
     } catch (error) {
       console.error(error);
     }       
