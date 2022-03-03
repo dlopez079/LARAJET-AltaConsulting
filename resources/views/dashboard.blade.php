@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                 @livewire('a-p-i.times')
 
-                <div class="min-h-full">
+                <div class="min-h-full hidden">
                     <!--
       When the mobile menu is open, add `overflow-hidden` to the `body` element to prevent double scrollbars
   
@@ -657,7 +657,8 @@
             </div>
         </div>
     </div>
-    href="{{ asset('css/app.css') }}
+    
+    {{-- The scripts below are used to retrieve the Time API json data. --}}
     <script type="module" src="{{ asset('js/axios.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </x-app-layout>
