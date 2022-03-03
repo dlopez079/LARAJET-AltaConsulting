@@ -21,6 +21,7 @@
         <!-- Livewire Script -->
         @livewireStyles
 
+        
         <!-- Alphine JS. -->
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     </head>
@@ -31,8 +32,7 @@
                 @livewire('about-section')
                 @livewire('contact-section')
                 @livewire('blog-section')
-                @livewire('a-p-i.times')
 
-        @livewireStyles
+        @livewireScripts
     </body>
 </html>
